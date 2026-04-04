@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <RootNamespace>GAPIM_GenericAPIMauricio</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+        <PackageId>GAPIM.GenericAPIMauricio</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>Mauricio</Authors>
+        <Description>Biblioteca genérica para agilizar a criação de APIs REST com padrão Repository e Service.</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="16.1.1" />
+      <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+      <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.7" />
+    </ItemGroup>
+
+</Project>
